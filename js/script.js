@@ -22,3 +22,22 @@ var body = document.querySelector("body");
 body.style.backgroundColor = "lightblue";
 
 // console.log(main.innerHTML);
+
+///change icon color///
+var instagram = document.querySelector(".fa-instagram");
+instagram.style.color = "#d45bb9";
+
+var facebook = document.querySelector(".fa-facebook");
+facebook.style.color = "#6a99b5";
+
+var twitter = document.querySelector(".fa-twitter");
+twitter.style.color = "#5ab867";
+
+var mobile = document.querySelector(".fa-mobile-alt");
+mobile.style.color = "#d48f04";
+
+////***opening hours add border to hours*** */////
+
+var openingHours = document.querySelector(".contact p");
+openingHours.style.border = "4px solid #d45bb9";
+openingHours.style.padding = "1em";
